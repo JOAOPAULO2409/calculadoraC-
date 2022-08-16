@@ -24,17 +24,62 @@ namespace Calculadora
 
         private void button11_Click(object sender, EventArgs e)
         {
-
+            txtresultado.Text += "1";
         }
 
         private void button12_Click(object sender, EventArgs e)
         {
-
+            txtresultado.Text += "2";
         }
 
         private void txtresultado_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            txtresultado.Text += "0";
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            txtresultado.Text += "3";
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            txtresultado.Text += "4";
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            txtresultado.Text += "5";
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            txtresultado.Text += "6";
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            txtresultado.Text += "7";
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            txtresultado.Text += "8";
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            txtresultado.Text += "9";
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
